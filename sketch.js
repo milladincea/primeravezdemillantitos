@@ -11,10 +11,8 @@ function draw() {
   fill(random(0,360),100,100);
   ellipse(mouseX,mouseY,d,d);
 }
-
 function keyPressed() {
   if (key === 'p') {
     save('dibujo.jpg');
   }
 }
- 
